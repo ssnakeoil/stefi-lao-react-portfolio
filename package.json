@@ -1,13 +1,17 @@
 {
-  "name": "portfolio",
+  "name": "stefi-lao-react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ssnakeoil.github.io/stefi-lao-react-portfolio/",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "4.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
